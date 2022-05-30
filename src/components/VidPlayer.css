@@ -1,0 +1,110 @@
+.side-bar{
+  width: 30%;
+}
+.w-70{
+  width: 70%;
+}
+.back-button{
+  position: relative;
+  top:20px;
+  left:20px;
+  cursor: pointer;
+  width: 100px;
+}
+.nbr{
+  border-bottom-right-radius: 0px;
+}
+.bg-shade{
+ background: #EFEFF6;
+}
+
+span.success, span.error{
+  border-radius: 3px;
+}
+
+.video-player{
+  float: right;
+}
+
+.course-contents{
+  overflow-y: auto;
+  height: 75vh;
+  min-height: 75vh;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.next-btn, .next-btn:hover{
+  position: relative;
+  z-index: 10;
+  font-size: 20px;
+  color: black !important;
+  left:90% !important;
+  bottom: 130px !important;
+  padding: 5px 30px;
+  background: #b7b5b5;
+  opacity: 0.7
+}
+
+@media (max-width: 1500px) {
+  .next-btn{
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    color: black;
+    left:87.5% !important;
+  }
+  /* .course-contents{
+    overflow-y: auto;
+    height: 65vh;
+
+  } */
+}
+@media (max-width: 1366px) {
+  .next-btn{
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    color: black;
+    left:86.3% !important;
+  }
+  .course-contents{
+    overflow-y: auto;
+    height: 66vh;
+
+  }
+}
+@media (max-width: 1280px) {
+  .next-btn{
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    color: black;
+    left:86.3% !important;
+  }
+  /* .course-contents{
+    overflow-y: auto;
+    height: 50vh;
+
+  } */
+}
+@media (max-width: 425px) {
+  h3.text-center{
+    font-size:20px;
+  }
+  .next-btn{
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    color: black;
+    left: 71.3% !important;
+    bottom:110px !important;
+    padding: 5px 15px;
+  }
+}

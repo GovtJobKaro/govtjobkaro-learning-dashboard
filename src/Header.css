@@ -1,0 +1,87 @@
+.App{
+  /* background-color: #F1F3F8; */
+}
+.header{
+  z-index: 50000;
+}
+.navbar {
+  padding: 15px;
+  width: 100%;
+  background-color: transparent;
+}
+.color-white{
+  color:white !important;
+}
+.navbar-nav a {
+  color:#544E7A;
+}
+
+.navbar-brand {
+  font-family: "Poppins Medium";
+  color: #302d3a;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  font-family: "Poppins Normal";
+  margin-left: 8%;
+}
+
+.navbar-nav > li {
+  margin-left: 30px;
+  padding: 2px;
+  font-size: 16px;
+}
+
+.nav-button {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  background-color: #f56962;
+  border-radius: 4px;
+  opacity: 1;
+  font-family: "Poppins Normal";
+  color: #ffffff;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  animation: smoothScroll 1s forwards;
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (min-width: 700) {
+  .d-fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .navbar{
+    background-color:#FEEFEE;
+  }
+}
+@media (max-width: 425px) {
+  .navbar{
+    background-color:#FEEFEE;
+  }
+  .m-ml-2{
+    margin-left: 15px;
+  }
+}

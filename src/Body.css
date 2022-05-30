@@ -1,0 +1,342 @@
+.course-dashboard {
+    position: relative;
+    /* margin-top: 75px; */
+    background-color:#FEEFEE;
+}
+
+.bg-white{
+  background: white !important;
+}
+
+.course-dashboard img {
+    position: absolute;
+    top: 40px;
+    right: -60px;
+    transform: rotate(90deg);
+}
+.course-dashboard h1 {
+    padding:90px 0;
+    color:#000000;
+}
+.view-all {
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f56962;
+    font-family: "Poppins Medium";
+}
+.user-details{
+    position: relative;
+    top: -50px;
+    border-radius: 5px;
+    padding: 25px 15px;
+    background-color: white;
+}
+.d-table{
+    height:40px;
+}
+.d-table-cell{
+    vertical-align: middle;
+}
+.course-button{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    background-color: #f56962;
+    border-radius: 4px;
+    opacity: 1;
+    font-family: "Poppins Medium";
+    color: #fff !important;
+}
+.course-button:hover{
+    color: #ffffff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background:white;
+    color:#F68C20;
+    border-bottom: 2px solid #F68C20;
+  }
+.nav-tabs{
+    border: none;
+    padding-left:15px;
+}
+.nav-tabs .nav-link{
+    border:none;
+    margin-bottom:unset;
+}
+.nav a{
+    color:#544E7A;
+}
+#offers-deals .offers {
+    padding: 25px 0;
+    margin-left: 12px;
+    background-color: transparent;
+}
+
+.offers-body {
+    position: relative;
+    width: 335px;
+    height: 290px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Poppins Medium';
+}
+
+.text h6 {
+    width: 120px;
+    color: #5F5982;
+    font-family: 'Poppins Medium';
+}
+
+.text h5 {
+    color: #302D3A;
+    font-size: 18px;
+    font-family: 'Poppins Normal';
+    font-weight: 600;
+}
+
+.discount-banner {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: fit-content;
+    position: absolute;
+    left: -16px;
+    bottom: 30px;
+    text-align: center;
+    padding: 15px 15px 10px;
+    border-radius: 5px;
+    background-color: #B3A092;
+}
+
+.discount-banner h6 {
+    font-family: 'Poppins Normal';
+}
+
+.discount-banner h2 {
+    font-size: 40px;
+    line-height: 0.6;
+    font-family: 'Poppins Medium';
+}
+
+.image {
+    position: absolute;
+    bottom: -1px;
+    right: 0px;
+    width: 175px;
+    height: 274px;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.pattern img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* owl css */
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.offers-and-deals .owl-prev {
+    position: absolute;
+    outline: none;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+}
+.offers-and-deals .owl-prev span {
+    width: 40px;
+    height: 40px;
+    content: url(./icons/wleft.png);
+}
+.offers-and-deals .owl-prev span:hover {
+    width: 40px;
+    height: 40px;
+    content: url(./icons/right.png);
+    transform: rotate(180deg);
+}
+button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform 0.5s, opacity 1s;
+}
+.offers-and-deals .owl-next span {
+    width: 40px;
+    height: 40px;
+    content: url(./icons/wleft.png);
+    transform: rotate(180deg);
+}
+.offers-and-deals .owl-next span:hover {
+    width: 40px;
+    height: 40px;
+    content: url(./icons/right.png);
+    transform: rotate(0deg);
+}
+.offers-and-deals .owl-next {
+    position: absolute;
+    outline: none;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+}
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.offers-and-deals .owl-theme .owl-dots {
+    margin-top: 20px;
+}
+.offers-and-deals .owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
+
+.m-show{
+  display: none !important;
+}
+
+.m-hidden{
+  display: flex !important;
+}
+
+.mobile-nav-bottom{
+  border-top-left-radius: 35px !important;
+  border-top-right-radius: 35px !important;
+}
+
+ul.mobile-nav-bottom li.nav-item a.nav-link{
+  padding: 5px;
+}
+
+li.nav-item a.nav-link.active{
+  background: none !important;
+  color: #f56962 !important;
+  fill:currentColor;
+}
+/* live sessions */
+.notes-card.gray-card {
+  border-bottom: 2px solid #707070;
+}
+
+.notes-card {
+    width: 350px;
+    min-height: 245px;
+    padding: 50px 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 10px solid black;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+.gray-card {
+    border: 2px solid #707070;
+    border-bottom: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: transparent;
+}
+iframe{
+  width: 100%;
+  height: 200px
+}
+
+.announcements-box{
+  grid-template-columns: repeat(3, 1fr)
+}
+
+@media (max-width: 425px) {
+    .offers-and-deals .owl-theme .owl-dots .owl-dot span {
+        width: 15px;
+        margin: 0 5px;
+    }
+    .notes-card{
+      width: auto;
+    }
+    .live-sessions video,.announcements-box video {
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+
+    .live-sessions,.announcements-box {
+      grid-template-columns: 1fr !important;
+    }
+
+    .offers-and-deals .owl-theme .owl-dots {
+        margin-top: 0px;
+    }
+
+  .course-dashboard{
+    margin-top: 0px;
+    padding-top: 30px
+  }
+
+    .course-dashboard h1 {
+        padding: 35px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .user-details {
+        position: relative;
+        top: -20px;
+        border-radius: 5px;
+        padding: 12px;
+        background-color: white;
+    }
+
+  .fm{
+    padding: 0 0 3rem 0 !important;
+    font-size: 25px !important
+  }
+    .m-show{
+      display: block !important;
+    }
+    .m-hidden{
+      display: none !important;
+    }
+
+    div.social-icons.row.text-muted.mt-center{
+      margin-bottom: 1.5rem !important;
+    }
+    .mt-center{
+      text-align: center !important;
+    }
+    p ul{
+      padding-left: 20px
+    }
+
+    ul li.nav-item{
+      text-align: center;
+      min-width: 25% !important;
+      max-width: 25% !important
+    }
+
+    p ul li{
+      font-size: 14px
+    }
+}

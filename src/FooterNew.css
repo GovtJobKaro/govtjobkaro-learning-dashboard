@@ -1,0 +1,117 @@
+/* -------------FONTS------------------------- */
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: local('Poppins'), url(./fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: local('Poppins'), url(./fonts/Poppins-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: local('Poppins'), url(./fonts/Poppins-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins'), url(./fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: local('Poppins'), url(./fonts/Poppins-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: local('Poppins'), url(./fonts/Poppins-Medium.ttf) format('truetype');
+}
+.p-medium{
+  font-family: Poppins-Medium;
+}
+
+.p-bold{
+  font-family: Poppins-Bold
+}
+
+.p-regular{
+  font-family: Poppins-Regular
+}
+
+.p-extra-bold{
+  font-family: Poppins-ExtraBold
+}
+
+.p-semi-bold{
+  font-family: Poppins-SemiBold
+}
+
+.p-light{
+  font-family: Poppins-Light
+}
+
+
+
+a.footer-link,a.footer-link:hover{
+  text-decoration: none;
+  color:  #91929A !important;
+  cursor: pointer;
+}
+.text-muted{
+  font-size: 14px;
+}
+
+
+/* .c-grid .text-muted{
+  font-size: 11px;
+} */
+
+.text-muted.social-icons{
+  font-size: 16px
+}
+
+i {
+  margin: auto 10px;
+}
+
+.overflow-auto{
+  overflow: hidden !important;
+}
+
+.mt-major{
+  margin-top: 135px !important;
+}
+
+@media (max-width:900px) {
+  .footer-list{
+    text-align: left;
+  }
+}
+
+@media (min-width:360px) and (max-width:500px) {
+
+  .social-icons{
+    text-align: right;
+    /* margin-bottom: 2%; */
+  }
+
+  .mobile-footer-links .col-6.col-sm-2.px-1, .mobile-footer-links .col-6.col-sm-2.px-4{
+    padding: 0 15px !important;
+  }
+
+  .mt-justify{
+    text-align: justify;
+  }
+
+  .mt-major{
+    margin-top: .5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .mb-btn{
+    width: 100% !important
+  }
+}
